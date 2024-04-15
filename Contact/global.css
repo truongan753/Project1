@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-bruno-ace-sc: "Bruno Ace SC";
+  --font-nico-moji: "Nico Moji";
+  --font-bruno-ace: "Bruno Ace";
+
+  /* font sizes */
+  --font-size-xl: 20px;
+  --font-size-13xl: 32px;
+  --font-size-45xl: 64px;
+  --font-size-61xl: 80px;
+  --font-size-41xl: 60px;
+  --font-size-base: 16px;
+  --font-size-5xl: 24px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-black: #000;
+  --color-gray-100: rgba(0, 0, 0, 0);
+  --color-gray-200: rgba(255, 255, 255, 0.2);
+  --color-gainsboro: rgba(217, 217, 217, 0);
+  --color-lavender: #d6e2ed;
+
+  /* Paddings */
+  --padding-8xl: 27px;
+
+  /* Border radiuses */
+  --br-8xs: 5px;
+  --br-111xl: 130px;
+}

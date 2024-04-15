@@ -1,0 +1,466 @@
+body{
+  width: 1519px;
+  background-color: #010101;
+  height: 0;
+}
+header{
+  background-image: url(../imgs/banner2.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 1080px;
+  padding-top: 47px;
+  
+}
+.li_menu:hover{
+  color: #1C2329;
+}
+.ul_menu{
+  font-family: "Bruno Ace SC";
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  font-size: 15px;
+  border-bottom: 1px solid #FFFFFF;
+  border-top: 1px solid #FFFFFF;
+  height: 60px;    
+}
+.li_menu{
+  margin-left: 30px;
+}
+.a_menu{
+  line-height: 60px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.a_menu:hover{
+  color: #627A8F;
+}
+.a_menu_imgs{
+  height: 100%;
+  border-left: 1px solid #FFFFFF;
+  border-right: 1px solid #FFFFFF;
+  padding: 0 162px 0 162px;
+}
+.a_menu_imgs--ins{
+  position: relative;
+  right: 50px;
+}
+.a_menu_app{
+  position: relative;
+  top: 6px;
+}
+
+.lovepik-com-500792048-outer-sp-icon,
+.minimal-globe-technology-busin-icon {
+  position: absolute;
+  top: 55px;
+  left: -4px;
+  width: 1519px;
+  height: 2308px;
+  object-fit: cover;
+}
+.lovepik-com-500792048-outer-sp-icon {
+  top: 0;
+  left: 0;
+  height: 832px;
+}
+.frame-child18,
+.frame-child19 {
+  position: absolute;
+  right: 182px;
+  bottom: 5065.2px;
+  border-radius: var(--br-111xl);
+  background-color: var(--color-gray-200);
+  box-shadow: 40px 50px 20px rgba(0, 0, 0, 0.15);
+  backdrop-filter: blur(30px);
+  border: 3px solid var(--color-black);
+  box-sizing: border-box;
+  width: 1155px;
+  height: 617.5px;
+  transform: rotate(-0.2deg);
+  transform-origin: 0 0;
+}
+.frame-child19 {
+  right: 132.3px;
+  bottom: 3025.3px;
+  width: 1263.7px;
+  height: 667px;
+}
+.lovepik-com-401162930-space-as-icon {
+  position: absolute;
+  top: 48px;
+  left: 0;
+  width: 787px;
+  height: 784px;
+  object-fit: contain;
+}
+.contact12,
+.group-child24 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.contact12 {
+  line-height: 100px;
+  font-family: var(--font-nico-moji);
+}
+.group-child24 {
+  border-radius: var(--br-8xs);
+  background: linear-gradient(90deg, rgba(28, 35, 41, 0.77), #627a8f);
+  border: 2px solid var(--color-white);
+  box-sizing: border-box;
+  width: 400px;
+  height: 90px;
+}
+.read-now2 {
+  position: absolute;
+  top: 25px;
+  left: 108px;
+}
+.rectangle-parent1,
+.spaceships-are-vessels2 {
+  position: absolute;
+  top: 417px;
+  left: 34px;
+  width: 400px;
+  height: 90px;
+  text-align: justify;
+  font-size: var(--font-size-13xl);
+}
+.spaceships-are-vessels2 {
+  top: 124px;
+  font-size: var(--font-size-xl);
+  text-align: left;
+  display: inline-block;
+  width: 501px;
+  height: 383px;
+}
+.contact-parent3 {
+  position: absolute;
+  top: 157px;
+  left: 787px;
+  width: 535px;
+  height: 507px;
+  text-align: right;
+  font-size: var(--font-size-61xl);
+}
+.galaxy-night-panorama-1-icon {
+  position: absolute;
+  top: 1958px;
+  left: -4px;
+  width: 1515px;
+  height: 1497px;
+  object-fit: contain;
+}
+.group-earth-icon {
+  position: absolute;
+  top: 2442px;
+  left: 700px;
+  height: 675px;
+  animation: app-logo-spin infinite 15s linear
+
+}
+.group-child25,
+.group-child26 {
+  position: absolute;
+  top: 575.5px;
+  left: 457px;
+  background-color: var(--color-gainsboro);
+  border: 10px solid var(--color-lavender);
+  box-sizing: border-box;
+  width: 532.7px;
+  height: 231.5px;
+  transform: rotate(-90deg);
+  transform-origin: 0 0;
+}
+.group-child26 {
+  top: 368.9px;
+  left: 373.2px;
+  width: 581.1px;
+  transform: rotate(90deg);
+}
+.phihanhgia-1-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 878.3px;
+  height: 935.5px;
+  object-fit: cover;
+  animation-name: flo;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+
+}
+.rectangle-parent2 {
+  position: absolute;
+  top: 1082px;
+  left: 143px;
+  width: 878.3px;
+  height: 950px;
+}
+.contact-information {
+  margin: 0;
+}
+.address-123-universe {
+  margin-bottom: 0;
+}
+.address-123-universe-street {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-8xl);
+}
+.contact-information-address-container1 {
+  width: 100%;
+}
+.contact-information-address-container {
+  position: absolute;
+  top: 1843px;
+  left: 791px;
+  text-align: left;
+  display: flex;
+  align-items: flex-end;
+  width: 543px;
+  height: 120px;
+}
+.contact-ifomation,
+.follow-us {
+  position: absolute;
+  top: 1741px;
+  left: 716px;
+  font-size: var(--font-size-41xl);
+}
+.follow-us {
+  top: 0;
+  left: 30px;
+}
+.stay-updated-with {
+  position: absolute;
+  top: 135px;
+  left: 30px;
+  text-align: left;
+  display: flex;
+  align-items: flex-end;
+  width: 427px;
+  height: 105px;
+}
+.facebook1 {
+  text-decoration: underline;
+}
+.facebook {
+  color: inherit;
+}
+.facebook-universetravel-twit-container {
+  position: absolute;
+  top: 249px;
+  left: 0;
+  display: flex;
+  align-items: flex-end;
+  width: 720px;
+  height: 110px;
+}
+.follow-us-parent {
+  position: absolute;
+  top: 2550px;
+  left: 222px;
+  width: 720px;
+  height: 359px;
+}
+.minimal-globe-technology-busin-parent {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-black);
+  height: 3805px;
+  overflow: hidden;
+  text-align: justify;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+  font-family: var(--font-bruno-ace-sc);
+}
+footer{
+  position: relative;
+  top: -2550px;
+}
+.img_footer{
+  position: relative;
+  width: 100%;
+  top: 2000px;
+}
+.content_footer{
+  display: flex;
+  top: 1800px;
+  position: relative;
+  color: #FFFFFF;
+  font-family: "Bruno Ace SC";
+  margin-right: 40px;
+}
+.h1_footer{
+  border-bottom: 2px solid #FFFFFF;
+  font-size: 25px;
+  width: 120px;
+  position: relative;
+  left: 40px;
+}
+.ul_footer{
+  padding-top: 30px;
+  list-style: none;
+}
+.a_footer{
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 15px;
+}
+.group_link{
+  padding-left: 65px;
+}
+.ul_footer_icon{
+  display: flex;
+}
+
+.img_icon{
+  padding-left: 30px;
+  width: 40px;
+}
+.group_link_right{
+  text-align: right;
+}
+.h1_footer_right{
+  width: 90%;
+}
+.footer{
+  margin-top: 4px;
+}
+.ul_footer_2{
+  position: relative;
+  top: 1771px;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #5B6C7E;
+  list-style: none;
+  height: 73px;
+}
+.a_footer2{
+  color: #FFFFFF;
+  text-decoration: none;
+  font-family: "Bruno Ace SC";
+  font-size: 10px;
+}
+.ul_footer_2 li{
+  margin-top: 24px;
+}
+.img_footer2{
+  width: 50px;
+  position: relative;
+  bottom: 10px;
+}
+.btn{
+  background-image:  linear-gradient(to right, #1C2329 , #627A8F);
+  width: 350px;
+  height: 80px;
+  position: relative;
+  top: 380px;
+  right: 150px;
+  border-radius: 5px;
+  border-width: 4px;
+  border-style: solid;
+  border-image: linear-gradient(to right, #FFFFFF, #627A8F) 1;
+}
+
+.a_btn{
+  font-family: "Bruno Ace SC";
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 20px;
+
+}
+.a_menu_imgs--ins{
+  left: -50px;
+}
+/* HOVER BUTTON */
+.btn .a_btn {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.a_btn:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: -2px;
+  right: -20px;
+  transition: 0.5s;
+}
+.btn:hover .a_btn {
+  padding-right: 25px;
+}
+.btn:hover .a_btn:after {
+  opacity: 1;
+  right: 0;
+}
+
+.btn {
+  /* border: 2px solid; */
+  border-style: solid;
+  border-image: linear-gradient(to right, #FFFFFF, #627A8F) 1;
+  /* box-shadow: inset 0 0 20px rgba(255, 255, 255, 0); */
+  outline: 1px solid;
+  outline-color: rgba(255, 255, 255, .5);
+  outline-offset: 0px;
+  text-shadow: none;
+  transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+} 
+
+.btn:hover {
+  border: 1px solid;
+  box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
+  outline-color: rgba(255, 255, 255, 0);
+  outline-offset: 15px;
+  text-shadow: 1px 1px 2px #427388; 
+}
+@keyframes flo{
+  50%{
+    transform: translateY(60px);
+  }
+}
+@keyframes app-logo-spin {
+  from {
+    transform: rotate(0deg)
+  }
+  to {
+    transform: rotate(360deg)
+  }
+}
+@media (max-width: 900px){
+  section h1{
+    font-size: 2rem;
+    text-align: center;
+  }
+  section .text-container{
+    flex-direction: column;
+  }
+}
+.reveal{
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 1s all ease;
+}
+.reveal.active{
+  transform: translateY(0);
+  opacity: 1;
+}
+.active.fade-left {
+  animation: fade-left 0.4s ease-in;
+}
+
+@keyframes fade-left {
+  0% {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
