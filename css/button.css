@@ -1,0 +1,65 @@
+.btn{
+    background-image:  linear-gradient(to right, #1C2329 , #627A8F);
+    width: 350px;
+    height: 80px;
+    
+    border-radius: 5px;
+    border-width: 4px;
+    border-style: solid;
+    border-image: linear-gradient(to right, #FFFFFF, #627A8F) 1;
+  }
+ 
+  .a_btn{
+    font-family: "Bruno Ace SC";
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 20px;
+  
+  }
+  .a_menu_imgs--ins{
+    left: -50px;
+  }
+  /* HOVER BUTTON */
+  .btn .a_btn {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  .a_btn:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: -2px;
+    right: -20px;
+    transition: 0.5s;
+  }
+  .btn:hover .a_btn {
+    padding-right: 25px;
+  }
+  .btn:hover .a_btn:after {
+    opacity: 1;
+    right: 0;
+  }
+  
+  
+  .btn {
+    /* border: 2px solid; */
+    border-style: solid;
+    border-image: linear-gradient(to right, #FFFFFF, #627A8F) 1;
+    /* box-shadow: inset 0 0 20px rgba(255, 255, 255, 0); */
+    outline: 1px solid;
+    outline-color: rgba(255, 255, 255, .5);
+    outline-offset: 0px;
+    text-shadow: none;
+    transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+  } 
+  
+  .btn:hover {
+    border: 1px solid;
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
+    outline-color: rgba(255, 255, 255, 0);
+    outline-offset: 15px;
+    text-shadow: 1px 1px 2px #427388; 
+  }
+  

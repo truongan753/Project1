@@ -1,0 +1,52 @@
+body{
+    width: 1519px;
+    background-color: #010101;
+    
+  }
+  header{
+    background-image: url(../imgs/banner2.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 1080px;
+    padding-top: 47px;
+    
+  }
+  .li_menu:hover{
+    color: #1C2329;
+  }
+  .ul_menu{
+    font-family: "Bruno Ace SC";
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    font-size: 15px;
+    border-bottom: 1px solid #FFFFFF;
+    border-top: 1px solid #FFFFFF;
+    height: 60px;    
+}
+.li_menu{
+    margin-left: 30px;
+}
+.a_menu{
+    line-height: 60px;
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+  .a_menu:hover{
+    color: #627A8F;
+  }
+  .a_menu_imgs{
+    height: 100%;
+    border-left: 1px solid #FFFFFF;
+    border-right: 1px solid #FFFFFF;
+    padding: 0 162px 0 162px;
+  }
+  .a_menu_imgs--ins{
+    position: relative;
+    right: 75px;
+  }
+  .a_menu_app{
+    position: relative;
+    top: 6px;
+  }
+ 
